@@ -53,7 +53,7 @@ BOT_OWNERS_AND_LOGS = load_bot_owners_and_logs_from_file(BOT_OWNERS_AND_LOGS_FIL
 # Function to update the status message and send it to the channel
 async def update_and_send_status_message():
     global xxx_pratheek
-    xxx_pratheek = "【☆】★ | ▄︻デ ᑗŇƗV€ŘŞ€══━一 【 Ⴆσƚ-҈  ƗŇ₣Ø 】 | ★【☆】"
+    xxx_pratheek = "【☆】★ | ▄︻デ ᑗŇƗV€ŘŞ€══━一 【 Ⴆσƚs-҈  ƗŇ₣Ø 】 | ★【☆】"
 
     for bot in BOT_OWNERS_AND_LOGS: 
         try:
@@ -178,7 +178,7 @@ async def main_pratheek():
             print("Checking...")
             
             # Reset the xxx_pratheek variable before checking the status of each bot
-            xxx_pratheek = "【☆】★ | ▄︻デ ᑗŇƗV€ŘŞ€══━一 【 Ⴆσƚ-҈  ƗŇ₣Ø 】 | ★【☆】"
+            xxx_pratheek = "【☆】★ | ▄︻デ ᑗŇƗV€ŘŞ€══━一 【 Ⴆσƚs-҈  ƗŇ₣Ø 】 | ★【☆】"
 
             # Loop through BOT_OWNERS_AND_LOGS to check the status of each bot
             for bot, info in BOT_OWNERS_AND_LOGS.items():
